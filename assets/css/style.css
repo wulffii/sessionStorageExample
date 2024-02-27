@@ -1,16 +1,35 @@
+html {
+  --mainBg: #eee;
+  --mainText: #111;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
 body {
   margin: 0;
-  background: #eee;
+  background: var(--mainBg);
+  color: var(--mainText);
   font-family: "Raleway", sans-serif;
 }
 
+button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background: orange;
+  color: white;
+  border: none;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
 .wrapper {
-  background: white;
+  background: color-mix(in lab, var(--mainBg) 50%, white);
   border-radius: 6px;
   padding: 1rem;
   max-width: 800px;
   margin: 0 auto;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 form div {

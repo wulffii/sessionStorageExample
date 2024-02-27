@@ -14,4 +14,4 @@
 
 // Now try getting the sessionStorage from anotherfile.html
 
-// IF you have time - rework the data to store an array of data instead of a single object
+// If you have time: try to write the pseudocode for handling the light/darkmode colorswitch. Tip: I've setup the css so that all you have to do to go to darkmode is change the css-variables lines 2-3, have a look
